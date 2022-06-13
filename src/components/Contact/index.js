@@ -39,7 +39,7 @@ const Contact = () => {
   }
   
   return (
-    <div>
+    <>
       <h2 className='contact-header'>Contact Me Below</h2>
       <form className='contact-form d-grid'>
         <input
@@ -72,7 +72,7 @@ const Contact = () => {
           <p className='error-message'>{errorMessage}</p>
         </div>
       )}
-    </div>
+    </>
   )
 }
 

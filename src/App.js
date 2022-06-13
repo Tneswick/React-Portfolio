@@ -4,6 +4,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <main>
         {/* <About /> */}
         {/* <Portfolio /> */}
-        <Contact />
+        {/* <Contact /> */}
+        <Resume />
       </main>
       <Footer/>
       {/* PUSH FOOTER TO BOTTOM OF Viewport */}
