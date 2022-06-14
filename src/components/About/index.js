@@ -9,9 +9,7 @@ const About = () => {
       <div className="d-grid col-2 about-p-grid">
         <div></div>
         <p className="about-paragraph col-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut ipsum nec nisl maximus elementum. Vestibulum fermentum commodo efficitur. Nulla ultrices hendrerit leo, pharetra gravida ligula facilisis et. Nulla rutrum facilisis est, eget tincidunt ligula sodales eget. Donec cursus viverra felis, at volutpat ligula cursus at. Nam eu lacinia odio, vitae semper mauris. Aenean ultricies lectus non faucibus congue.
-          <br />
-          Maecenas purus sem, tempus nec ultrices ac, pretium sit amet tortor. Cras eu turpis rutrum nisi convallis semper. Aliquam imperdiet consequat aliquet. Sed ornare ipsum in justo maximus, sed lacinia felis porttitor. Ut in luctus diam. Donec porta imperdiet neque, a malesuada elit viverra sit amet. Vivamus hendrerit eros ac fermentum mollis. Fusce scelerisque elit quis justo suscipit suscipit. Integer vel semper ex, sit amet tempor dolor. Nunc semper quis velit eget posuere. Etiam in ullamcorper leo. Duis tempor urna aliquet mattis efficitur. Quisque et purus nibh.
+          I've spent the last 9 years in the medical field as an Emergency Medical Technician. After considering my options I decided to make a career switch for myself and my family. I enrolled in the UC Berkeley coding bootcamp to get myself into the tech field. My hope is to break into tech and further my skills to become an experienced web developer and work on mentally stimulating projects, and maybe even create web applications of my own. 
         </p>
         <div></div>
       </div>
