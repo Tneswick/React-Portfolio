@@ -1,37 +1,36 @@
-import React from "react";
-
+import React, { useState } from 'react';
 const Project = () => {
 
-  const projects = [
+  const [projects] = useState([
     {
-      name: 'Full On Flicks',
+      name: '🍿 Full On Flicks 🎥',
       url: 'https://dn691997.github.io/Full-On-Flicks/',
       repo: 'https://github.com/dn691997/Full-On-Flicks',
-      screenshot: '../../assets/screenshots/full-on-flicks.png'
+      screenshot: 'https://github.com/dn691997/Full-On-Flicks/raw/main/assets/images/screenshot.png'
     },
     {
-      name: 'CountingCalz',
+      name: '🍴 CountingCalz 🧮',
       url: 'https://github.com/dn691997/Full-On-Flicks',
       repo: 'https://github.com/JacobReeder/Counting-Calz',
-      screenshot: '../../assets/screenshots/countingcalz.png'
+      screenshot: 'https://github.com/JacobReeder/Counting-Calz/raw/main/public/images/Screenshot.png'
     }
-  ]
+  ])
   return (
     <>
       {projects.map((projectMapped => {
         return (
-        <>
+        <div className='project-div-wrapper d-grid'>
+          <h2>{projectMapped.name}</h2>
           <a href={projectMapped.url}>
             <img
-              src={require(`${projectMapped.screenshot}`)}
+              src={projectMapped.screenshot}
               alt={projectMapped.name}
-              className=""
+              className="project-img"
               key={projectMapped.name}
             />
           </a>
-          <h2>{projectMapped.name}</h2>
-          <a href={projectMapped.repo}>Repository</a>
-        </>
+          <a href={projectMapped.repo}>{projectMapped.name} Repository🔗</a>
+        </div>
         )
       }))}
     </>
