@@ -13,7 +13,7 @@ A website built in React that showcases my work as a web designer and is respons
 
 ## 🖥Website
 
-[My Portfolio](https://tneswick.github.io/My-Portfolio/)
+[My Portfolio](https://tneswick.github.io/React-Portfolio/)
 
 ## 📸 Screenshot
 
