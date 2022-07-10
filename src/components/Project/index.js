@@ -38,6 +38,12 @@ const Project = () => {
       repo: 'https://github.com/Tneswick/WeatherLook',
       screenshot: 'https://github.com/Tneswick/WeatherLook/raw/main/assets/images/Screenshot.png'
     },
+    {
+      name: '🍕 The-Cal-Zone 🧠',
+      url: 'https://the-cal-zone.herokuapp.com/',
+      repo: 'https://github.com/JacobReeder/Counting-Calz-2.0',
+      screenshot: 'https://raw.githubusercontent.com/JacobReeder/Counting-Calz-2.0/main/imgs/dashboard-test-data(iPhone%20XR).png'
+    }
   ])
   return (
     <>
