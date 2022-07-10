@@ -42,7 +42,7 @@ const Project = () => {
       name: '🍕 The-Cal-Zone 🧠',
       url: 'https://the-cal-zone.herokuapp.com/',
       repo: 'https://github.com/JacobReeder/Counting-Calz-2.0',
-      screenshot: 'https://raw.githubusercontent.com/JacobReeder/Counting-Calz-2.0/main/imgs/dashboard-test-data(iPhone%20XR).png'
+      screenshot: 'https://raw.githubusercontent.com/JacobReeder/Counting-Calz-2.0/main/imgs/dashboard-test-data(iPhone%20XR).png',
     }
   ])
   return (
