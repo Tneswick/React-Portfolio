@@ -9,7 +9,7 @@ import Resume from './components/Resume';
 
 function App() {
 
-  const [ currentPage, setCurrentPage ] = useState('contact');
+  const [ currentPage, setCurrentPage ] = useState('about');
 
   const renderPage = () => {
     if (currentPage === 'portfolio') {
