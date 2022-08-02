@@ -238,6 +238,19 @@ textarea {
   padding: 0.4rem;
 }
 
+.contacts {
+  font-size: 2.2rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  text-shadow: var(--text-shadow);
+}
+
+.contacts:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 /* start 'resume' */
 
 .resume-card {
