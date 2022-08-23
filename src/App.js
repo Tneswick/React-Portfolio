@@ -39,7 +39,7 @@ function App() {
           {renderPage()}
         </div>
       </main>
-      <Footer/>
+      {/* <Footer/> */}
       {/* PUSH FOOTER TO BOTTOM OF Viewport */}
     </div>
   );
