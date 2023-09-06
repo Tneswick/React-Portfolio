@@ -42,6 +42,8 @@
 }
 
 /* end original css, start custom css with elements */
+
+/* Start roots */
 :root {
   --primary-color: #EF767A;
   --secondary-color: #456990;
@@ -52,19 +54,17 @@
   --header-font: 'Pacifico', cursive;
 }
 
+/* End Roots */
+
 html {
   background-color: var(--secondary-color);
   color: var(--quaternary-color);
   font-size: 1.2rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   background-color: var(--primary-color);
-  padding: 1.5rem 0;
+  padding: 0.2rem 0;
   display: grid;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   /* background: linear-gradient(to bottom, rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.3)); */
@@ -73,14 +73,26 @@ header {
 header a {
   color: var(--secondary-color);
   font-size: 2rem;
-  font-weight: bolder;
-  /* font-family: var(--header-font); */
+  font-family: var(--header-font);
   align-self: center;
   text-shadow: var(--text-shadow);
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
 
-header a:hover {
+header h1 a {
+  font-size: 2rem;
+  padding: 0;
+  display: inline;
+}
+
+header h1 a:hover {
   color: white;
+}
+
+header h1 {
+  margin: 0.2rem 0;
 }
 
 input {
@@ -96,6 +108,10 @@ textarea {
 }
 
 /* start helpers */
+
+a {
+  text-decoration: none;
+}
 
 .d-grid {
   display: grid;
@@ -115,6 +131,31 @@ textarea {
   box-shadow: var(--box-shadow);
 }
 
+/* start 'nav' */
+
+.nav-grid {
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  align-self: center;
+}
+
+.nav-grid a {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1rem 0;
+}
+
+.nav-grid a:hover {
+  color: white;
+}
+
+.active-nav {
+  color: var(--tertiary-color);
+  text-shadow: none;
+}
+
 /* start page container & main wrap */
 
 .page-container {
@@ -124,33 +165,6 @@ textarea {
 
 .main-wrap {
   padding-bottom: 2.5rem;
-}
-
-/* start 'footer' */
-
-.footer {
-  background-color: var(--tertiary-color);
-  color: var(--secondary-color);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer h4 {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.footer p {
-  font-size: .8rem;
-  text-align: center;
-  margin-top: 0;
-}
-
-.footer a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
 }
 
 /* start 'about' */
@@ -183,29 +197,6 @@ textarea {
   border-radius: 90px 20px;
   box-shadow: var(--box-shadow);
   justify-self: end;
-}
-
-/* start 'nav' */
-
-.nav-grid {
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1rem;
-  align-self: center;
-}
-
-.nav-grid a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.nav-grid a:hover {
-  color: white;
-}
-
-.active-nav {
-  color: var(--tertiary-color);
-  text-shadow: none;
 }
 
 /* start 'header' */

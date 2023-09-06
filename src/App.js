@@ -3,7 +3,6 @@ import './App.css';
 import Nav from './components/Nav'
 import About from './components/About';
 import Portfolio from './components/Portfolio'
-import Footer from './components/Footer'
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
@@ -30,7 +29,7 @@ function App() {
     <div className='page-container'>
       <header>
         <div className='d-grid header-grid'>
-          <a href='/'>Tneswick</a>
+        <h1><a href='/'>Tneswick</a></h1>
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>
       </header>
@@ -39,8 +38,6 @@ function App() {
           {renderPage()}
         </div>
       </main>
-      {/* <Footer/> */}
-      {/* PUSH FOOTER TO BOTTOM OF Viewport */}
     </div>
   );
 }
