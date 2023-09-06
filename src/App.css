@@ -1,3 +1,7 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* End fonts */
+
 .App {
   text-align: center;
 }
@@ -45,6 +49,7 @@
   --quaternary-color: #49BEAA;
   --text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   --box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  --header-font: 'Pacifico', cursive;
 }
 
 html {
@@ -59,7 +64,7 @@ a {
 
 header {
   background-color: var(--primary-color);
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   display: grid;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   /* background: linear-gradient(to bottom, rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.3)); */
@@ -67,8 +72,9 @@ header {
 
 header a {
   color: var(--secondary-color);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bolder;
+  /* font-family: var(--header-font); */
   align-self: center;
   text-shadow: var(--text-shadow);
 }
