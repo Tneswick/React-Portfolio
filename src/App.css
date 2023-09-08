@@ -176,6 +176,7 @@ a {
   display: block;
   justify-self: start;
   align-self: center;
+  font-size: 1.5rem;
 }
 
 .about-paragraph {
@@ -197,6 +198,7 @@ a {
   border-radius: 90px 20px;
   box-shadow: var(--box-shadow);
   justify-self: end;
+  width: 14rem;
 }
 
 /* start 'header' */
@@ -220,7 +222,7 @@ a {
 
 .contact-form {
   grid-template-columns: repeat(1, 1fr);
-  width: 50vw;
+  width: 20vw;
   margin: 3vh auto;
   background-color: var(--quaternary-color);
   padding: 1vw;
@@ -236,7 +238,7 @@ a {
 }
 
 .contacts {
-  font-size: 2.2rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   color: var(--secondary-color);
@@ -252,7 +254,7 @@ a {
 
 .resume-card {
   grid-template-columns: repeat(2, 1fr);
-  width: 25vw;
+  width: 45vw;
   margin: 3vh auto;
   background-color: var(--quaternary-color);
   padding: 1vw;
@@ -261,8 +263,13 @@ a {
   box-shadow: var(--box-shadow);
 }
 
+.resume-card ul {
+  list-style-type: square;
+}
+
 .resume-card h3 {
   color: var(--secondary-color);
+  font-size: 1.2rem;
 }
 
 .resume-card ul li {
@@ -270,15 +277,24 @@ a {
 }
 
 .resume-1 {
-  justify-self: end;
+  justify-self: start;
 }
 
-.resume-dl-link {
+.resume-dl-link{
+  text-align: center;
+}
+
+.resume-dl-link a{
   text-decoration: none;
   font-size: 1rem;
   color: var(--tertiary-color);
   text-align: center;
   padding-bottom: 2.5rem;
+  justify-self: center;
+}
+
+.resume-dl-link a:hover {
+  color: white;
 }
 
 /* start 'portfolio' & 'project' */
@@ -299,6 +315,7 @@ a {
   width: 20vw;
   height: auto;
   box-shadow: var(--box-shadow);
+  margin: 0;
 }
 
 .project-div-wrapper {
@@ -308,7 +325,7 @@ a {
   border-radius: 10px;
   border: var(--tertiary-color) solid 5px;
   margin-top: 3vh;
-  padding: 0.1vw;
+  padding: 0.1rem;
   width: 90%;
   justify-self: center;
   box-shadow: var(--box-shadow);
@@ -316,7 +333,7 @@ a {
 
 .project-div-wrapper h2 {
   font-size: 2rem;
-  margin: 0.6vh auto;
+  margin: 0 auto;
   text-shadow: var(--text-shadow);
 }
 
@@ -324,7 +341,16 @@ a {
   text-decoration: none;
   color: var(--secondary-color);
   font-weight: bold;
+  margin: 0;
 }
+
+.project-div-wrapper a:hover{
+  color: white;
+}
+/* 
+.project-div-wrapper img:hover{
+  transform: scale(2.0);
+} */
 
 /* media queries */
 

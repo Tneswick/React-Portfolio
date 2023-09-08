@@ -40,7 +40,7 @@ const Contact = () => {
   
   return (
     <>
-      <h2 className='contact-header'>Contact Me Below</h2>
+      <h2 className='contact-header'>Contact</h2>
       {/* <form className='contact-form d-grid'>
         <input
           value={fullName}
@@ -70,7 +70,6 @@ const Contact = () => {
       <div className='contact-form d-grid'>
         <a className='contacts' href='mailto: nezboppin@gmail.com'>nezboppin@gmail.com</a>
         <a className='contacts' href='https://bit.ly/3BC7J0P'>LinkedIn</a>
-        <a className='contacts' href='https://twitter.com/NEZwasTaken'>Twitter</a>
       </div>
       {errorMessage && (
         <div>

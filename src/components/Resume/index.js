@@ -31,9 +31,9 @@ const Resume = () => {
           </ul>
         </div>
       </div>
-      <a href="https://drive.google.com/file/d/17deObHKXadICioEJ0jhjrxUR36pGTdLZ/view?usp=sharing" target="_blank" rel="noreferrer">
-        <h4 className="resume-dl-link">Link to Downloadable Resume</h4>
-      </a>
+      <h4 className="resume-dl-link">
+        <a href="https://drive.google.com/file/d/17deObHKXadICioEJ0jhjrxUR36pGTdLZ/view?usp=sharing" target="_blank" rel="noreferrer">Link to Downloadable Resume</a>
+      </h4>
     </>
   )
 }
